@@ -7,8 +7,6 @@ export default function Home() {
         <title>The Refactor Project</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
-      <button className='btn'>My name is jeff</button>
     </div>
   );
 }
