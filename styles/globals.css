@@ -4,3 +4,9 @@
 
 @layer components {
 }
+
+@layer utilities {
+  .container-homepage {
+    max-width: 1080px;
+  }
+}

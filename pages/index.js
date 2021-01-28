@@ -9,7 +9,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <div className='container'>I'm some content!!</div>
+      <div className='container-homepage mx-auto'>I'm some content!!</div>
     </Layout>
   );
 }
