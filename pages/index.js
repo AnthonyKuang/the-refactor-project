@@ -1,17 +1,15 @@
 import Head from 'next/head';
-import Navbar from '../components/Navbar';
+import Layout from '../components/Layout';
 
 export default function Home() {
   return (
-    <>
+    <Layout>
       <Head>
         <title>The Refactor Project</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <Navbar />
-
       <div className='container'></div>
-    </>
+    </Layout>
   );
 }
