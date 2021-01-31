@@ -11,13 +11,13 @@ export default function Home() {
 
       <div className='container-homepage mx-auto px-4'>
         <section className='mt-24 text-center'>
-          <div className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-700'>
+          <span className='bg-gradient-to-r from-blue-400 to-blue-600 text-transparent bg-clip-text text-base xs:text-lg sm:text-xl md:text-2xl'>
             The Refactor Project
-          </div>
-          <h1 className='text-5xl font-semibold text-gray-700'>
+          </span>
+          <h1 className='text-3xl xs:text-4xl sm:text-5xl lg:text-6xl mt-6 max-w-3xl mx-auto'>
             Volunteer-made websites, for clubs and nonprofits.
           </h1>
-          <p>
+          <p className='mt-20'>
             We transform the web by crafting responsive and performant websites
             to users on all devices.
           </p>

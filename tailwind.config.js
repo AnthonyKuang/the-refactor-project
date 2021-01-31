@@ -6,6 +6,7 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     colors: {
+      transparent: 'transparent',
       white: white,
       gray: coolGray,
       blue: {
@@ -35,6 +36,19 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Inter', ...fontFamily.sans],
+    },
+    screens: {
+      xs: '365px',
+      sm: '650px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+    },
+    extend: {
+      lineHeight: {
+        tighter: '1.125',
+      },
     },
   },
   variants: {

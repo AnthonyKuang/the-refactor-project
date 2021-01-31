@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Navbar({ page }) {
   return (
-    <nav className='shadow-lg py-2'>
+    <nav className='shadow-lg py-2 text-base'>
       <div className='container-homepage mx-auto px-4 flex justify-between items-center'>
         <div className='flex-1'>
           <Image
