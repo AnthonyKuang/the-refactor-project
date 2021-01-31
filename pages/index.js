@@ -8,8 +8,6 @@ export default function Home() {
         <title>The Refactor Project</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
-      <div className='container-homepage mx-auto'>I'm some content!!</div>
     </Layout>
   );
 }
