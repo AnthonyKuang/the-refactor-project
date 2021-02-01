@@ -48,7 +48,7 @@ export default function Navbar({ page }) {
             <a
               href='#LINK'
               role='button'
-              className='block text-center text-blue-400 border-2 border-blue-400 rounded-md w-20 py-2 transition duration-200 hover:bg-blue-400 hover:text-white'
+              className='block text-center bg-blue-400 text-white rounded-md border-blue-400 border-2 w-20 py-2 transition duration-200 hover:bg-white hover:text-blue-400'
             >
               Sign up
             </a>

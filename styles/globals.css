@@ -15,7 +15,7 @@
   h4,
   h5,
   h6 {
-    @apply text-gray-700 font-semibold;
+    @apply text-gray-800 font-semibold;
   }
 }
 
@@ -28,6 +28,6 @@
   }
 
   .blur {
-    backdrop-filter: saturate(180%) blur(25px);
+    backdrop-filter: saturate(180%) blur(30px);
   }
 }
