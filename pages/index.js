@@ -11,7 +11,7 @@ export default function Home() {
 
       <div className='container-homepage mx-auto px-6'>
         <section className='mt-40 text-center'>
-          <span className='bg-gradient-to-r from-blue-400 to-blue-600 text-transparent bg-clip-text text-sm sm:text-base md:text-lg lg:text-xl uppercase'>
+          <span className='bg-gradient-to-r from-blue-400 to-blue-600 text-transparent bg-clip-text text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl uppercase'>
             The Refactor Project
           </span>
           <h1 className='max-w-4xl mx-auto mt-8 text-4xl md:text-5xl xl:text-6xl tracking-tight leading-normal md:leading-snug lg:leading-tight xl:leading-tight'>
@@ -23,7 +23,7 @@ export default function Home() {
           </p>
           <a
             href='#LINK'
-            className='block mt-72 text-center uppercase font-semibold text-white bg-blue-400 max-w-lg mx-auto rounded-md py-3'
+            className='block mt-72 mb-96 text-center uppercase font-semibold text-white bg-blue-400 max-w-lg mx-auto rounded-md py-3 transition duration-200 hover:bg-gray-700'
           >
             Request a website
           </a>
