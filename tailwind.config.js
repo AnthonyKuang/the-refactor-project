@@ -1,4 +1,4 @@
-const { white, coolGray } = require('tailwindcss/colors');
+const { white, gray } = require('tailwindcss/colors');
 const { fontFamily } = require('tailwindcss/defaultTheme');
 
 module.exports = {
@@ -8,7 +8,7 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       white: white,
-      gray: coolGray,
+      gray: gray,
       blue: {
         50: '#e6f6ff',
         100: '#bae3ff',
@@ -36,19 +36,6 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Inter', ...fontFamily.sans],
-    },
-    screens: {
-      xs: '365px',
-      sm: '650px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
-      '2xl': '1536px',
-    },
-    extend: {
-      lineHeight: {
-        tighter: '1.125',
-      },
     },
   },
   variants: {
