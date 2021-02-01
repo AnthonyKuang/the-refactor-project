@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Navbar({ page }) {
   return (
-    <nav className='shadow-lg py-2 text-sm font-semibold sticky top-0 z-10 blur'>
+    <nav className='shadow-lg py-2 text-sm font-medium sticky top-0 z-10 blur'>
       <div className='container-homepage mx-auto px-6 flex justify-between items-center'>
         <div className='flex-1'>
           <Link href='/'>
@@ -19,7 +19,7 @@ export default function Navbar({ page }) {
           </Link>
         </div>
         <ul className='flex flex-1 space-x-8 justify-center'>
-          <li className='text-gray-600'>
+          <li className='text-gray-400'>
             <Link href='/clients'>
               <a className='transition duration-200 hover:text-gray-600'>
                 Clients
@@ -48,7 +48,7 @@ export default function Navbar({ page }) {
             <a
               href='#LINK'
               role='button'
-              className='block text-center bg-blue-400 text-white rounded-md border-blue-400 border-2 w-20 py-2 transition duration-200 hover:bg-white hover:text-blue-400'
+              className='block text-center bg-blue-400 text-white rounded-md w-20 py-2 transition duration-200 hover:bg-blue-300'
             >
               Sign up
             </a>

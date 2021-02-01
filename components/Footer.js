@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
-    <footer className='bg-gradient-to-r from-blue-700 to-blue-900'>
+    <footer className='bg-gradient-to-r from-blue-500 to-blue-700'>
       <div className='container-homepage mx-auto px-4 py-16'>
-        <p className='text-4xl text-white text-center'>
+        <h2 className='text-2xl text-white text-center'>
           Convinced? Request a website today.
-        </p>
+        </h2>
       </div>
     </footer>
   );
