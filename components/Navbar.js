@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Navbar({ page }) {
   return (
-    <nav className='shadow-lg py-2 text-sm font-semibold sticky-nav'>
+    <nav className='shadow-lg py-2 text-sm font-semibold sticky top-0 z-10 blur'>
       <div className='container-homepage mx-auto px-6 flex justify-between items-center'>
         <div className='flex-1'>
           <Link href='/'>
