@@ -21,15 +21,39 @@ export default function Navbar({ page }) {
         <ul className='flex flex-1 space-x-8 justify-center'>
           <li className='text-gray-400'>
             <Link href='/clients'>
-              <a className='transition duration-200 hover:text-gray-600'>
-                Clients
+              <a className='transition duration-200 hover:text-gray-500 flex'>
+                <p>Clients</p>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  viewBox='0 0 20 20'
+                  fill='currentColor'
+                  className='h-5 w-5'
+                >
+                  <path
+                    fillRule='evenodd'
+                    d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z'
+                    clipRule='evenodd'
+                  />
+                </svg>
               </a>
             </Link>
           </li>
           <li className='text-gray-400'>
             <Link href='/volunteers'>
-              <a className='transition duration-200 hover:text-gray-600'>
-                Volunteers
+              <a className='transition duration-200 hover:text-gray-500 flex'>
+                <p>Volunteers</p>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  viewBox='0 0 20 20'
+                  fill='currentColor'
+                  className='h-5 w-5'
+                >
+                  <path
+                    fillRule='evenodd'
+                    d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z'
+                    clipRule='evenodd'
+                  />
+                </svg>
               </a>
             </Link>
           </li>
@@ -39,7 +63,7 @@ export default function Navbar({ page }) {
             <a
               href='#LINK'
               role='button'
-              className='block text-gray-400 transition duration-200 hover:text-gray-600'
+              className='block text-gray-400 transition duration-200 hover:text-gray-500'
             >
               Login
             </a>
