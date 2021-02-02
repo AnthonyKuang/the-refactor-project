@@ -3,31 +3,31 @@ import Link from 'next/link';
 
 export default function Navbar({ page }) {
   return (
-    <nav className='shadow-lg py-2 text-sm font-medium sticky top-0 z-10 blur'>
+    <nav className='shadow-lg text-sm font-medium sticky top-0 z-10 blur'>
       <div className='container-homepage mx-auto px-6 flex justify-between items-center'>
-        <div className='flex-1'>
+        <div className='flex-1 flex items-center'>
           <Link href='/'>
-            <a className='w-12 h-12'>
+            <a className='h-12'>
               <Image
                 src='/logo/the-refactor-project-48.png'
                 alt='The Refactor Project logo'
-                width='48px'
-                height='48px'
+                width='48'
+                height='48'
                 className='transition duration-500 ease-in-out transform hover:-rotate-90'
               />
             </a>
           </Link>
         </div>
-        <ul className='flex flex-1 space-x-8 justify-center'>
-          <li className='text-gray-400'>
+        <ul className='flex flex-1 justify-center'>
+          <li className='text-gray-400 show-menu'>
             <Link href='/clients'>
-              <a className='transition duration-200 hover:text-gray-500 flex'>
+              <a className='transition duration-200 hover:text-gray-500 flex py-6 pr-4'>
                 <p>Clients</p>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 20 20'
                   fill='currentColor'
-                  className='h-5 w-5'
+                  className='h-5 w-5 ml-0.5'
                 >
                   <path
                     fillRule='evenodd'
@@ -37,16 +37,23 @@ export default function Navbar({ page }) {
                 </svg>
               </a>
             </Link>
+            <div className='absolute right-0 w-screen shadow-2xl bg-white border-t border-gray-100 opacity-0 transition-opacity duration-500 ease-in-out off-screen'>
+              <ul className='container-homepage mx-auto px-6'>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+              </ul>
+            </div>
           </li>
-          <li className='text-gray-400'>
+          <li className='text-gray-400 show-menu'>
             <Link href='/volunteers'>
-              <a className='transition duration-200 hover:text-gray-500 flex'>
+              <a className='transition duration-200 hover:text-gray-500 flex py-6 pl-4'>
                 <p>Volunteers</p>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 20 20'
                   fill='currentColor'
-                  className='h-5 w-5'
+                  className='h-5 w-5 ml-0.5'
                 >
                   <path
                     fillRule='evenodd'
@@ -56,6 +63,13 @@ export default function Navbar({ page }) {
                 </svg>
               </a>
             </Link>
+            <div className='absolute right-0 w-screen shadow-2xl bg-white border-t border-gray-100 opacity-0 transition-opacity duration-500 ease-in-out off-screen'>
+              <ul className='container-homepage mx-auto px-6'>
+                <li>four</li>
+                <li>five</li>
+                <li>six</li>
+              </ul>
+            </div>
           </li>
         </ul>
         <div className='flex flex-1 space-x-6 justify-end items-center'>
