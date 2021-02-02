@@ -22,7 +22,7 @@ export default function Home() {
         </p>
         <a
           href='#LINK'
-          className='mt-36 sm:mt-72 block max-w-xs sm:max-w-sm md:max-w-md mx-auto border-blue-400 border-2 bg-blue-400 text-white font-medium uppercase rounded-md py-3 transition duration-200 hover:bg-white hover:text-blue-400 shadow-lg hover:shadow-2xl'
+          className='mt-36 sm:mt-72 block max-w-xs sm:max-w-sm md:max-w-md mx-auto border-blue-400 border-2 bg-blue-400 text-white font-semibold uppercase rounded-md py-3 transition duration-200 hover:bg-white hover:text-blue-400 shadow-lg hover:shadow-2xl'
         >
           Request a website
         </a>

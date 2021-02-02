@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply text-gray-500 font-normal;
+    @apply text-gray-600 font-normal;
   }
 
   h1,
@@ -15,7 +15,7 @@
   h4,
   h5,
   h6 {
-    @apply text-gray-800 font-semibold;
+    @apply text-gray-900 font-semibold;
   }
 }
 
