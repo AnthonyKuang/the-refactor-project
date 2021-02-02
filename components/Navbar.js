@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Navbar({ page }) {
   return (
     <nav className='shadow-lg text-sm font-medium sticky top-0 z-10 blur'>
-      <div className='container-homepage mx-auto px-6 flex justify-between items-center'>
+      <div className='container-homepage flex justify-between items-center'>
         <div className='flex-1 flex items-center'>
           <Link href='/'>
             <a className='h-12'>
@@ -37,8 +37,8 @@ export default function Navbar({ page }) {
                 </svg>
               </a>
             </Link>
-            <div className='absolute right-0 w-screen shadow-2xl bg-white border-t border-gray-100 opacity-0 transition-opacity duration-500 ease-in-out off-screen'>
-              <ul className='container-homepage mx-auto px-6'>
+            <div className='menu'>
+              <ul className='container-homepage'>
                 <li>one</li>
                 <li>two</li>
                 <li>three</li>
@@ -63,8 +63,8 @@ export default function Navbar({ page }) {
                 </svg>
               </a>
             </Link>
-            <div className='absolute right-0 w-screen shadow-2xl bg-white border-t border-gray-100 opacity-0 transition-opacity duration-500 ease-in-out off-screen'>
-              <ul className='container-homepage mx-auto px-6'>
+            <div className='menu'>
+              <ul className='container-homepage'>
                 <li>four</li>
                 <li>five</li>
                 <li>six</li>
@@ -83,11 +83,7 @@ export default function Navbar({ page }) {
             </a>
           </Link>
           <Link href='/signup'>
-            <a
-              href='#LINK'
-              role='button'
-              className='block text-center bg-blue-400 text-white rounded-md w-20 py-2 transition duration-200 hover:bg-blue-300 font-semibold'
-            >
+            <a href='#LINK' role='button' className='btn-secondary'>
               Sign up
             </a>
           </Link>
