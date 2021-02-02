@@ -7,7 +7,7 @@ export default function Footer() {
         <div>
           <h2 className='heading-text'>Convinced?</h2>
           <p className='mt-2 showcase-text'>
-            Our team will guide you through every step of the process.
+            Let our team guide you through every step of the process.
           </p>
         </div>
         <div>
@@ -18,9 +18,9 @@ export default function Footer() {
       </section>
 
       <section className='bg-gray-50 border-t border-gray-200'>
-        <div className='container-homepage flex justify-between pt-16 text-gray-500'>
+        <div className='container-homepage flex justify-between pt-16 text-gray-500 text-sm'>
           <ul className='space-y-3'>
-            <li className='font-medium text-gray-700 mb-6'>Clients</li>
+            <li className='font-medium text-gray-600 mb-6'>Clients</li>
             <li>Home</li>
             <li>Request a Website</li>
             <li>Website Status</li>
@@ -28,20 +28,20 @@ export default function Footer() {
             <li></li>
           </ul>
           <ul className='space-y-3'>
-            <li className='font-medium text-gray-700 mb-6'>Volunteers</li>
+            <li className='font-medium text-gray-600 mb-6'>Volunteers</li>
             <li>Join the Team</li>
             <li>Documentation</li>
             <li>Full Website Builds</li>
             <li>Slack Server</li>
           </ul>
           <ul className='space-y-3'>
-            <li className='font-medium text-gray-700 mb-6'>Company</li>
+            <li className='font-medium text-gray-600 mb-6'>Company</li>
             <li>Contact Us</li>
             <li>Blog</li>
             <li>Mailing List</li>
           </ul>
           <ul className='space-y-3'>
-            <li className='font-medium text-gray-700 mb-6'>Legal</li>
+            <li className='font-medium text-gray-600 mb-6'>Legal</li>
             <li>Privacy Policy</li>
             <li>Terms of Service</li>
             <li>501c3</li>
