@@ -20,28 +20,34 @@ export default function Footer() {
       <section className='bg-gray-50 border-t border-gray-200 pt-20'>
         <div className='container-homepage flex justify-between text-gray-500 text-sm'>
           <ul className='space-y-3'>
-            <li className='font-medium text-gray-600 mb-6'>Clients</li>
-            <li>Home</li>
+            <li className='font-medium uppercase text-gray-600 mb-6'>
+              Clients
+            </li>
             <li>Request a Website</li>
+            <li>Case Studies</li>
             <li>Website Status</li>
             <li>Make a Donation</li>
             <li></li>
           </ul>
           <ul className='space-y-3'>
-            <li className='font-medium text-gray-600 mb-6'>Volunteers</li>
+            <li className='font-medium uppercase text-gray-600 mb-6'>
+              Volunteers
+            </li>
             <li>Join the Team</li>
             <li>Documentation</li>
             <li>Full Website Builds</li>
             <li>Slack Server</li>
           </ul>
           <ul className='space-y-3'>
-            <li className='font-medium text-gray-600 mb-6'>Company</li>
+            <li className='font-medium uppercase text-gray-600 mb-6'>
+              Company
+            </li>
             <li>Contact Us</li>
             <li>Blog</li>
             <li>Mailing List</li>
           </ul>
           <ul className='space-y-3'>
-            <li className='font-medium text-gray-600 mb-6'>Legal</li>
+            <li className='font-medium uppercase text-gray-600 mb-6'>Legal</li>
             <li>Privacy Policy</li>
             <li>Terms of Service</li>
             <li>501c3</li>
@@ -56,7 +62,7 @@ export default function Footer() {
             />
             <p className='text-xs gradient-text'>The Refactor Project &copy;</p>
           </div>
-          <div className='text-gray-300 flex gap-3'>
+          <div className='text-gray-400 flex gap-3'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='24'

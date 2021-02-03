@@ -29,7 +29,7 @@
   }
 
   .menu {
-    @apply absolute right-0 w-screen shadow-2xl bg-white border-t-4 border-gray-100 opacity-0 transition-opacity duration-700 ease-in-out off-screen;
+    @apply absolute right-0 w-screen shadow-2xl bg-white border-t-4 border-gray-100 opacity-0 transition-opacity duration-200 ease-in-out off-screen;
   }
 
   .heading-text {
@@ -41,7 +41,7 @@
   }
 
   .gradient-text {
-    @apply inline-block bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-blue-600 uppercase text-sm sm:text-base md:text-lg lg:text-xl font-medium tracking-wider;
+    @apply inline-block bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-blue-600 uppercase tracking-wider font-medium;
   }
 }
 
