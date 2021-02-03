@@ -21,15 +21,15 @@
 
 @layer components {
   .btn-primary {
-    @apply block mx-auto border-blue-400 border-2 bg-blue-400 text-white font-semibold uppercase rounded-md py-3 transition duration-200 hover:bg-white hover:text-blue-400 shadow-lg hover:shadow-2xl text-center px-4;
+    @apply block mx-auto border-blue-400 border-2 bg-blue-400 text-white font-medium uppercase rounded-md py-3 transition-colors hover:bg-white hover:text-blue-400 shadow-lg hover:shadow-2xl text-center px-4;
   }
 
   .btn-secondary {
-    @apply block text-center bg-blue-400 text-white rounded-md w-20 py-2 transition duration-200 hover:bg-blue-300 font-semibold shadow-sm hover:shadow-md;
+    @apply block text-center bg-blue-400 text-white rounded-md w-20 py-2 transition-colors hover:bg-blue-300 shadow-sm hover:shadow-md;
   }
 
   .menu {
-    @apply absolute right-0 w-screen shadow-2xl bg-white border-t-4 border-gray-100 opacity-0 transition-opacity duration-500 ease-in-out off-screen;
+    @apply absolute right-0 w-screen shadow-2xl bg-white border-t-4 border-gray-100 opacity-0 transition-opacity duration-700 ease-in-out off-screen;
   }
 
   .heading-text {

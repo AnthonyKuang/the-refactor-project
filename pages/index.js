@@ -29,8 +29,7 @@ export default function Home() {
       </section>
 
       <main className='mt-36 container-homepage'>
-        <h2 className='uppercase'>A refactored website</h2>
-        <div></div>
+        <div>showcase section</div>
       </main>
     </Layout>
   );

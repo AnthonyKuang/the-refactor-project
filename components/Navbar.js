@@ -21,7 +21,7 @@ export default function Navbar({ page }) {
         <ul className='flex flex-1 justify-center'>
           <li className='text-gray-500 show-menu'>
             <Link href='/clients'>
-              <a className='transition duration-200 hover:text-gray-700 flex py-6 pr-4'>
+              <a className='transition-colors hover:text-gray-700 flex py-6 pr-4'>
                 <p>Clients</p>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -47,7 +47,7 @@ export default function Navbar({ page }) {
           </li>
           <li className='text-gray-500 show-menu'>
             <Link href='/volunteers'>
-              <a className='transition duration-200 hover:text-gray-700 flex py-6 pl-4'>
+              <a className='transition-colors duration-200 hover:text-gray-700 flex py-6 pl-4'>
                 <p>Volunteers</p>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -77,7 +77,7 @@ export default function Navbar({ page }) {
             <a
               href='#LINK'
               role='button'
-              className='block text-gray-500 transition duration-200 hover:text-gray-700'
+              className='block text-gray-500 transition-colors hover:text-gray-700'
             >
               Login
             </a>
