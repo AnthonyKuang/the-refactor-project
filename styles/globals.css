@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply text-gray-600 font-normal;
+    @apply text-gray-600 font-normal overflow-x-hidden;
   }
 
   h1,

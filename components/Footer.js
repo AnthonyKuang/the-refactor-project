@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className='mt-24 border-t-4 border-gray-100'>
+    <footer className='mt-96 border-t-4 border-gray-100'>
       <section className='container-homepage flex justify-between items-center py-16'>
         <div>
           <h2 className='heading-text'>Convinced?</h2>
