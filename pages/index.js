@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <section className='container-homepage text-center'>
-        <p className='mt-20 sm:mt-28 xl:mt-32 gradient-text text-sm sm:text-base md:text-lg lg:text-xl'>
+        <p className='mt-20 sm:mt-24 xl:mt-28 gradient-text from-blue-400 to-purple-500 text-sm sm:text-base md:text-lg lg:text-xl'>
           The Refactor Project
         </p>
         <h1 className='mt-6 max-w-4xl mx-auto heading-text'>
@@ -29,7 +29,7 @@ export default function Home() {
         </a>
       </section>
 
-      <main className='mt-48'>
+      <main className='mt-48 border-t-4 border-gray-100 bg-gray-50'>
         <div className='container-homepage flex items-center'>
           <div className='max-w-md'>
             <div>
@@ -113,12 +113,12 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className='relative left-44 transform scale-110'>
+          <div className='relative left-44 transform scale-110 shadow-xl leading-0'>
             <Image
               src='/images/code-showcase.svg'
               alt='Code Showcase'
               width={1698}
-              height={1336}
+              height={1276}
             />
           </div>
         </div>

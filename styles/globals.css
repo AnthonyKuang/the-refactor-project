@@ -21,7 +21,7 @@
 
 @layer components {
   .btn-primary {
-    @apply block mx-auto border-blue-400 border-2 bg-blue-400 text-white font-medium uppercase rounded-md py-3 transition-colors hover:bg-white hover:text-blue-400 shadow-lg hover:shadow-2xl text-center px-4;
+    @apply block mx-auto border-purple-500 border-2 bg-purple-500 text-white font-medium uppercase rounded-md py-3 transition-colors hover:bg-white hover:text-purple-500 shadow-lg hover:shadow-2xl text-center px-4;
   }
 
   .btn-secondary {
@@ -41,7 +41,7 @@
   }
 
   .gradient-text {
-    @apply inline-block bg-gradient-to-r text-transparent bg-clip-text from-blue-400 to-blue-600 uppercase tracking-wider font-medium;
+    @apply inline-block bg-gradient-to-r text-transparent bg-clip-text uppercase tracking-wider font-medium;
   }
 }
 
@@ -50,8 +50,8 @@
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .blur {
@@ -60,6 +60,14 @@
 
   .off-screen {
     transform: translateY(-200px);
+  }
+
+  .box-shadow {
+    box-shadow: 20px 20px 20px red;
+  }
+
+  .leading-0 {
+    line-height: 0;
   }
 }
 
