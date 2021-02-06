@@ -15,7 +15,7 @@ export default function Home() {
           The Refactor Project
         </p>
         <h1 className='mt-6 max-w-4xl mx-auto heading-text'>
-          Volunteer-made websites, for businesses and nonprofits.
+          Intern-made websites, for businesses and nonprofits.
         </h1>
         <p className='mt-16 max-w-lg mx-auto showcase-text'>
           We transform the web by crafting responsive and performant websites to
@@ -29,103 +29,75 @@ export default function Home() {
         </a>
       </section>
 
-      <main className='mt-48 border-t-4 border-gray-100 bg-gray-50'>
-        <div className='container-homepage flex items-center'>
-          <div className='max-w-md'>
-            <div>
-              <p className='gradient-text text-xs sm:text-sm lg:text-base'>
+      <main className='mt-64 container-homepage'>
+        <section>
+          <div className='flex justify-between items-end'>
+            <div className='max-w-3xl'>
+              <p className='gradient-text from-blue-400 to-blue-600 text-sm sm:text-base lg:text-lg'>
                 Design
               </p>
-              <h2 className='text-3xl md:text-4xl mt-4'>
+              <h2 className='text-4xl md:text-5xl mt-6'>
                 Ideation and wireframing
               </h2>
-              <p className='mt-12 leading-loose'>
+              <p className='mt-12 showcase-text'>
                 Our design team will create a mockup of your organization's
                 website using web design software such as Figma and Adobe XD.
-                Review our work and offer improvements. Do not settle until
+                Review our work and offer any improvements. Do not settle until
                 you're satisfied.
               </p>
             </div>
-            <div className='mt-16 flex items-center gap-8'>
-              <Image
-                src='/images/figma.svg'
-                alt='Figma'
-                width={27}
-                height={41}
-              />
-              <Image
-                src='/images/adobe-xd.svg'
-                alt='Adobe XD'
-                width={42}
-                height={41}
-              />
-              <Image
-                src='/images/sketch.svg'
-                alt='Sketch'
-                width={45}
-                height={41}
-              />
+            <div className='flex flex-col gap-3'>
+              <div className='bg-blue-50 border border-blue-200 p-3 w-16 h-16 rounded-full grid place-items-center shadow-inner'>
+                <Image
+                  src='/images/adobe-xd.svg'
+                  alt='Adobe XD'
+                  width={46}
+                  height={46}
+                />
+              </div>
+              <div className='bg-blue-50 border border-blue-200 p-2 w-16 h-16 rounded-full grid place-items-center shadow-inner'>
+                <Image
+                  src='/images/figma.svg'
+                  alt='Figma'
+                  width={27}
+                  height={41}
+                />
+              </div>
+              <div className='bg-blue-50 border border-blue-200 p-2 w-16 h-16 rounded-full grid place-items-center shadow-inner'>
+                <Image
+                  src='/images/sketch.svg'
+                  alt='Sketch'
+                  width={45}
+                  height={41}
+                />
+              </div>
             </div>
           </div>
-          <div className='shadow-xl relative left-48 transform scale-125'>
+          <div className='mt-20 transform scale-90'>
             <Image
-              src='/images/style-guide.svg'
-              alt='Style Guide'
-              width={1202}
-              height={1390}
+              src='/images/mockups.svg'
+              alt='Mockup wireframes'
+              width={2117}
+              height={1158}
             />
           </div>
+        </section>
+        <div className='mt-24'>
+          <p className='gradient-text from-blue-400 to-blue-600 text-sm sm:text-base lg:text-lg'>
+            Code
+          </p>
+          <h2 className='text-4xl md:text-5xl mt-6'>Building and testing</h2>
+          <p className='mt-12 showcase-text max-w-3xl'>
+            Our programming team will make your design a reality. Using
+            cutting-edge technologies such as Next.js and TailwindCSS, your
+            website will be optimized with world-class performance, best
+            practices, and SEO.
+          </p>
         </div>
         <div className='mt-72 container-homepage flex items-center'>
           <div className='max-w-md'>
             <div>
-              <p className='gradient-text text-xs sm:text-sm lg:text-base'>
-                Code
-              </p>
-              <h2 className='text-3xl md:text-4xl mt-4'>
-                Building and testing
-              </h2>
-              <p className='leading-loose mt-12'>
-                Our programming team will make your design a reality. Using
-                cutting-edge technologies such as Next.js and TailwindCSS, your
-                website will be optimized with world-class performance, best
-                practices, and SEO.
-              </p>
-            </div>
-            <div className='mt-16 flex items-center gap-8'>
-              <Image
-                src='/images/nextjs.svg'
-                alt='Next.js'
-                width={76}
-                height={46}
-              />
-              <Image
-                src='/images/tailwindcss.svg'
-                alt='TailwindCSS'
-                width={57}
-                height={35}
-              />
-              <Image
-                src='/images/gatsby.svg'
-                alt='Gatsby'
-                width={44}
-                height={44}
-              />
-            </div>
-          </div>
-          <div className='relative left-44 transform scale-110 shadow-xl leading-0'>
-            <Image
-              src='/images/code-showcase.svg'
-              alt='Code Showcase'
-              width={1698}
-              height={1276}
-            />
-          </div>
-        </div>
-        <div className='mt-72 container-homepage flex items-center'>
-          <div className='max-w-md'>
-            <div>
-              <p className='gradient-text text-xs sm:text-sm lg:text-base'>
+              <p className='gradient-text from-blue-400 to-blue-600 text-xs sm:text-sm lg:text-base'>
                 Deploy
               </p>
               <h2 className='text-3xl md:text-4xl mt-4'>

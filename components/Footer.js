@@ -60,7 +60,6 @@ export default function Footer() {
               width='36'
               height='36'
             />
-            <p className='text-xs gradient-text'>The Refactor Project &copy;</p>
           </div>
           <div className='text-gray-400 flex gap-3'>
             <svg

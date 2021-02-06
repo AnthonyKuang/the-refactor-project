@@ -61,14 +61,6 @@
   .off-screen {
     transform: translateY(-200px);
   }
-
-  .box-shadow {
-    box-shadow: 20px 20px 20px red;
-  }
-
-  .leading-0 {
-    line-height: 0;
-  }
 }
 
 .show-menu:hover :last-child {
