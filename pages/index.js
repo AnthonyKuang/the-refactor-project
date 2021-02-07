@@ -43,9 +43,32 @@ export default function Home() {
               </h2>
               <p className='mt-12 showcase-text'>
                 Our design team will create a mockup of your organization's
-                website using web design software such as Figma and Adobe XD.
-                Review our work and offer any improvements. Do not settle until
-                you're satisfied.
+                website using web design software such as{' '}
+                <a
+                  href='https://www.figma.com'
+                  target='_blank'
+                  className='text-blue-500'
+                >
+                  Figma
+                </a>
+                ,{' '}
+                <a
+                  href='https://www.sketch.com'
+                  target='_blank'
+                  className='text-blue-500'
+                >
+                  Sketch
+                </a>
+                , and{' '}
+                <a
+                  href='https://www.adobe.com/products/xd'
+                  target='_blank'
+                  className='text-blue-500'
+                >
+                  Adobe XD
+                </a>
+                . Review our work and offer any improvements. Do not settle
+                until you're satisfied.
               </p>
             </div>
           </div>
@@ -58,18 +81,34 @@ export default function Home() {
             />
           </div>
         </section>
-        <div className='mt-24'>
-          <p className='gradient-text from-blue-400 to-blue-600 text-sm sm:text-base lg:text-lg'>
-            Code
-          </p>
-          <h2 className='text-4xl md:text-5xl mt-6'>Building and testing</h2>
-          <p className='mt-12 showcase-text max-w-3xl'>
-            Our programming team will make your design a reality. Using
-            cutting-edge technologies such as Next.js and TailwindCSS, your
-            website will be optimized with world-class performance, best
-            practices, and SEO.
-          </p>
-        </div>
+
+        <section className='mt-36'>
+          <div className='container-homepage'>
+            <div className='max-w-3xl'>
+              <p className='gradient-text from-purple-500 to-purple-600 text-sm sm:text-base lg:text-lg'>
+                Code
+              </p>
+              <h2 className='text-4xl md:text-5xl mt-6'>
+                Building and testing
+              </h2>
+              <p className='mt-12 showcase-text'>
+                Our programming team will make your design a reality. Using
+                cutting-edge technologies such as Next.js and TailwindCSS, your
+                website will be optimized with world-class performance, best
+                practices, and SEO.
+              </p>
+            </div>
+          </div>
+          <div className='mt-20 max-w-6xl mx-auto shadow-2xl leading-0 rounded-2xl'>
+            <Image
+              src='/images/style-guide.svg'
+              alt='Style guide'
+              width={3300}
+              height={2050}
+            />
+          </div>
+        </section>
+
         <div className='mt-72 container-homepage flex items-center'>
           <div className='max-w-md'>
             <div>
