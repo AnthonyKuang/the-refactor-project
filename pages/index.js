@@ -10,75 +10,49 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <section className='container-homepage text-center'>
-        <p className='mt-20 sm:mt-24 xl:mt-28 gradient-text from-blue-400 to-purple-500 text-sm sm:text-base md:text-lg lg:text-xl'>
-          The Refactor Project
-        </p>
-        <h1 className='mt-6 max-w-4xl mx-auto heading-text'>
-          Intern-made websites, for businesses and nonprofits.
-        </h1>
-        <p className='mt-16 max-w-lg mx-auto showcase-text'>
-          We transform the web by crafting responsive and performant websites to
-          users on all devices.
-        </p>
-        <a
-          href='#LINK'
-          className='mt-36 sm:mt-80 xl:mt-72 btn-primary max-w-xs sm:max-w-sm md:max-w-md'
-        >
-          Request a website
-        </a>
+      <section className='bg-gray-50 pb-28'>
+        <div className='container-homepage text-center'>
+          <p className='mt-20 sm:mt-24 xl:mt-28 gradient-text from-blue-400 to-purple-500 text-sm sm:text-base md:text-lg lg:text-xl'>
+            The Refactor Project
+          </p>
+          <h1 className='mt-6 max-w-4xl mx-auto heading-text'>
+            Volunteer-made websites, for businesses and nonprofits.
+          </h1>
+          <p className='mt-16 max-w-lg mx-auto showcase-text'>
+            We transform the web by crafting responsive and performant websites
+            to users on all devices.
+          </p>
+          <a
+            href='#LINK'
+            className='mt-36 sm:mt-80 xl:mt-72 btn-primary max-w-xs sm:max-w-sm md:max-w-md'
+          >
+            Request a website
+          </a>
+        </div>
       </section>
 
-      <main className='mt-64 container-homepage'>
+      <main className='container-homepage pt-28'>
         <section>
-          <div className='flex justify-between items-end'>
-            <div className='max-w-3xl'>
-              <p className='gradient-text from-blue-400 to-blue-600 text-sm sm:text-base lg:text-lg'>
-                Design
-              </p>
-              <h2 className='text-4xl md:text-5xl mt-6'>
-                Ideation and wireframing
-              </h2>
-              <p className='mt-12 showcase-text'>
-                Our design team will create a mockup of your organization's
-                website using web design software such as Figma and Adobe XD.
-                Review our work and offer any improvements. Do not settle until
-                you're satisfied.
-              </p>
-            </div>
-            <div className='flex flex-col gap-3'>
-              <div className='bg-blue-50 border border-blue-200 p-3 w-16 h-16 rounded-full grid place-items-center shadow-inner'>
-                <Image
-                  src='/images/adobe-xd.svg'
-                  alt='Adobe XD'
-                  width={46}
-                  height={46}
-                />
-              </div>
-              <div className='bg-blue-50 border border-blue-200 p-2 w-16 h-16 rounded-full grid place-items-center shadow-inner'>
-                <Image
-                  src='/images/figma.svg'
-                  alt='Figma'
-                  width={27}
-                  height={41}
-                />
-              </div>
-              <div className='bg-blue-50 border border-blue-200 p-2 w-16 h-16 rounded-full grid place-items-center shadow-inner'>
-                <Image
-                  src='/images/sketch.svg'
-                  alt='Sketch'
-                  width={45}
-                  height={41}
-                />
-              </div>
-            </div>
+          <div className='max-w-3xl'>
+            <p className='gradient-text from-blue-400 to-blue-600 text-sm sm:text-base lg:text-lg'>
+              Design
+            </p>
+            <h2 className='text-4xl md:text-5xl mt-6'>
+              Ideation and wireframing
+            </h2>
+            <p className='mt-12 showcase-text'>
+              Our design team will create a mockup of your organization's
+              website using web design software such as Figma and Adobe XD.
+              Review our work and offer any improvements. Do not settle until
+              you're satisfied.
+            </p>
           </div>
-          <div className='mt-20 transform scale-90'>
+          <div className='mt-20 shadow-2xl leading-0'>
             <Image
-              src='/images/mockups.svg'
-              alt='Mockup wireframes'
-              width={2117}
-              height={1158}
+              src='/images/background.svg'
+              alt='Blue background'
+              width={4000}
+              height={2500}
             />
           </div>
         </section>
