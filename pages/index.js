@@ -1,8 +1,14 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Layout from '../components/Layout';
+import Prism from 'prismjs';
+import { useEffect } from 'react';
 
 export default function Home() {
+  useEffect(() => {
+    Prism.highlightAll();
+  });
+
   return (
     <Layout page='home'>
       <Head>
@@ -72,7 +78,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className='mt-20 max-w-6xl mx-auto shadow-2xl leading-0 rounded-2xl'>
+          <div className='mt-16 max-w-6xl mx-auto shadow-2xl leading-0 rounded-2xl'>
             <Image
               src='/images/style-guide.svg'
               alt='Style guide'
@@ -85,7 +91,7 @@ export default function Home() {
         <section className='mt-36'>
           <div className='container-homepage'>
             <div className='max-w-3xl'>
-              <p className='gradient-text from-purple-600 to-purple-900 text-sm sm:text-base lg:text-lg'>
+              <p className='gradient-text from-purple-500 to-purple-700 text-sm sm:text-base lg:text-lg'>
                 Code
               </p>
               <h2 className='text-3xl md:text-4xl lg:text-5xl mt-6'>
@@ -122,17 +128,37 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className='mt-20 max-w-6xl mx-auto flex'>
-            <div className='bg-gray-700 rounded-xl'>
-              <pre className='text-white'>
-                <code>
-                  <span>// pages/index.js</span>
-                  <span>import</span>
-                  <span>'../styles/global.css</span>
-                </code>
-              </pre>
-            </div>
-            <div>Help me</div>
+          <div className='mt-16 max-w-6xl mx-auto flex'>
+            <pre className='rounded-xl p-8 max-w-6xl'>
+              <code className='language-js text-sm whitespace-pre-wrap'>
+                {`// index.js
+
+import Layout from '../components/Layout';
+import Prism from 'prismjs';
+import { useEffect } from 'react';
+
+export default function Home() {
+  useEffect(() => {
+    Prism.highlightAll();
+  });
+
+  return (
+    <Layout page='home'>
+      <section className='pb-28'>
+        <div className='container-homepage text-center'>
+          <p className='mt-20 sm:mt-24 xl:mt-28 gradient-text from-blue-400 to-purple-500 text-base md:text-lg lg:text-xl'>
+            The Refactor Project
+          </p>
+          <h1 className='mt-6 max-w-4xl mx-auto heading-text'>
+            Volunteer-made websites, for businesses and nonprofits.
+          </h1>
+        </div>
+      </section>
+    </Layout>
+  );
+}`}
+              </code>
+            </pre>
           </div>
         </section>
       </main>
